@@ -1,0 +1,22 @@
+# Global Gitignore for SDC Kotlin Projects
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Android & Gradle
+.gradle/
+**/build/
+*.apk
+*.aar
+*.keystore
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild
+.cxx/
